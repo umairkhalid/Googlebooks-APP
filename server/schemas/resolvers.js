@@ -39,8 +39,8 @@ const resolvers = {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
           { $addToSet: { savedBooks: input } },
-          { new: true, runValidators: true }
-        ).populate("savedBooks");
+          { new: true }
+        );
         return updatedUser;
       }
       throw new AuthenticationError("You need to be logged in!");
@@ -48,10 +48,10 @@ const resolvers = {
     removeBook: async (parent, args, context) => {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
-          { _id: context._id },
+          { _id: context.user._id },
           { $pull: { savedBooks: args } },
           { new: true }
-        ).populate("savedBooks");
+        );
         return updatedUser;
       }
       throw new AuthenticationError("You need to be logged in!");
