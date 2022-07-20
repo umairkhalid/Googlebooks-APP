@@ -108,7 +108,7 @@ Then user can view their saved books on a separate page, as shown in the followi
 ---
 
 - The app is deployed at: https://books-google-app.herokuapp.com/
-- The repo is at: https://umairkhalid.github.io/react-portfolio/
+- The repo is at: https:https://github.com/umairkhalid/Googlebooks-APP
 
 
 
