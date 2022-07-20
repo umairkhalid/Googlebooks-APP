@@ -20,7 +20,7 @@ Following refactoring has been done in order to build the GraphQL API with Apoll
 
 3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
 
-4. Application has been deployed to Heroku with a MongoDB database using MongoDB Atlas. Use the [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) walkthrough for instructions.
+4. Application has been deployed to Heroku at [Googlebooks APP](https://books-google-app.herokuapp.com/).
 
 
 ## User Story
@@ -107,16 +107,10 @@ Then user can view their saved books on a separate page, as shown in the followi
 ## [Usage](#table-of-contents)
 ---
 
-- The app is deployed at: https://umairkhalid.github.io/react-portfolio/
-- The repo is at 
+- The app is deployed at: https://books-google-app.herokuapp.com/
+- The repo is at: https://umairkhalid.github.io/react-portfolio/
 
-### 0. Download Node
 
-| Programs | Download links                  |
-| -------- | ------------------------------- |
-| `Node`   | https://nodejs.org/en/download/ |
-
-### 1. Git clone and go inside
 
 ```sh
 git clone https://github.com/umairkhalid/Googlebooks-APP.git
@@ -124,13 +118,13 @@ git clone https://github.com/umairkhalid/Googlebooks-APP.git
 cd Googlebooks-APP
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```sh
 npm install
 ```
 
-## Usage
+### Start the app
 
 ```sh
 npm run develop
@@ -141,7 +135,8 @@ The application is covered under the following license: [MIT](https://choosealic
 
 ## [Questions](#table-of-contents)
 
-If you have any question about the repo, open an issue or contact me directly at [Email: umairkhalid@fastmail.fm](mailto:umairkhalid@fastmail.fm).
+If you have any question about the repo, open an issue or complete the form at [Contact](https://umairkhalid.github.io/react-portfolio/#contact).
+
 You can find more of my work at [GitHub](https://github.com/umairkhalid).
 
 ---
